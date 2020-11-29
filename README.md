@@ -1,3 +1,3 @@
-My portfolio
+# my portfolio
 
-"Hey this is my portfolio",Currently Iam learning how to make portfolio.
+"Hey guys this is my portfolio",currently iam learning how to create portfolio.
