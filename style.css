@@ -131,3 +131,9 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+
+.matter-color{
+    color: var(--primary-color);
+}
+
