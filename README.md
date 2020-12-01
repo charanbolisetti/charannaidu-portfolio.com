@@ -1,10 +1,14 @@
 # my portfolio
 
-"Hey guys this is my portfolio",currently iam learning how to create portfolio.
+"Hey guys this is my portfolio"
 
-For now,I know
+Iam familiar with,
 
-1. html
-1. css
+1. html5
+1. css3
+1. Git
 1. javascript
+1. Node Js
 1. chalk
+1. React Js
+1. Web Hosting
