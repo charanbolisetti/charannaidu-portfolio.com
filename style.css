@@ -137,3 +137,6 @@ hr {
     color: var(--primary-color);
 }
 
+.typed-cursor{
+    color: var(--primary-color);
+}
