@@ -29,6 +29,7 @@ contactForm.addEventListener('submit', (e)=>{
             subject.value = '';
             message.value = ''
         }else{
+            console.log(e);
             alert('something went wrong');
         }
     }
