@@ -6,9 +6,7 @@ const nodemailer = require('nodemailer');
 const port = process.env.PORT || 5000;
 
 //Middleware
-var path = require('path');
-
-app.use(express.static(path.resolve('./public')));
+app.use(express.static('public'));
 app.use(express.json())
 
 app.get('/', (req, res)=>{
