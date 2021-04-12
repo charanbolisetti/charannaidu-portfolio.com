@@ -24,6 +24,7 @@ app.post('/', (req, res)=>{
         port:465,
         secure:true,
         auth: {
+            type: 'OAuth2',
             user: process.env.EMAIL,
             pass: process.env.PASSWORD
         }
