@@ -21,6 +21,8 @@ app.post('/', (req, res)=>{
 
     const transporter = nodemailer.createTransport({
         service: 'gmail',
+        host:'https://charanbolisetti.netlify.app',
+        port:port,
         auth: {
             user: process.env.EMAIL,
             pass: process.env.PASSWORD
