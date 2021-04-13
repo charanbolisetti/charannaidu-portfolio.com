@@ -13,7 +13,7 @@ app.use('/static', express.static(path.join(__dirname, 'public')))
 app.use(express.json())
 
 app.get('/', (req, res)=>{
-    res.sendFile(__dirname + '/contactform.html')
+    res.sendFile(__dirname + '/contactform.html');
 })
 
 app.post('/', (req, res)=>{
@@ -21,10 +21,7 @@ app.post('/', (req, res)=>{
 
     const transporter = nodemailer.createTransport({
         service: 'gmail',
-        port:465,
-        secure:true,
         auth: {
-            type: 'OAuth2',
             user: process.env.EMAIL,
             pass: process.env.PASSWORD
         }
