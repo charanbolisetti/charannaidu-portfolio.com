@@ -13,7 +13,7 @@ html,body{
     position: relative;
     left: 20%;
     width: 60%;
-    height: 100vh;
+    height: 105vh;
     background-color: #f4f4f4;
 }
 
@@ -23,6 +23,8 @@ html,body{
     left: 10%;
     width: 80%;
     height: 600px;
+	padding-top: 3rem;
+	text-align: center;
 }
 
 input,
