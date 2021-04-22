@@ -15,10 +15,15 @@ hr {
     margin: 2rem 0rem;
 }
 
-a:hover {
+.hstyle:hover {
 	background-color:#29DE1C;
 	border-radius: 8rem;
-	color: inherit;
+	outline: none;
+}
+
+.hstyle:active {
+	background-color:#29DE1C;
+	border-radius: 8rem;
 	outline: none;
 }
 
